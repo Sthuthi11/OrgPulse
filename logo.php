@@ -28,22 +28,22 @@ mysqli_close($con);
     <title>OrgPulse website</title>
     <style>
     body {
-      background-image: url('bg.jpg'); /* Change the background image URL here */
-      background-size: cover; /* Cover the entire viewport */
-      background-repeat: no-repeat; /* Prevent the background image from repeating */
-      background-attachment: fixed; /* Fix the background image so it doesn't scroll with the content */
+      background-image: url('bg.jpg'); 
+      background-size: cover;
+      background-repeat: no-repeat; 
+      background-attachment: fixed;
     }
 
     .count {
-height: 150px;
-width: 45%;
-padding: 20px;
-margin-right: auto;
-margin-left: auto;
-border: 2px dashed #990011; /* Use the same color as the buttons */
-border-radius: 5px;
-background-color: #FCF6F5; /* Use a light shade of the header background color */
-color: #990011; /* Use the same color as the buttons for text */
+    height: 150px;
+    width: 45%;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px dashed #990011; 
+    border-radius: 5px;
+    background-color: #FCF6F5;
+    color: #990011;
 }
 
       header {
@@ -88,12 +88,12 @@ color: #990011; /* Use the same color as the buttons for text */
       }
 
       .search-button {
-    padding: 12px; /* Increase padding for larger button size */
-    background-image: url('search.png');
-    background-size: contain; /* Ensure the background image fits within the button */
-    background-repeat: no-repeat; /* Prevent the background image from repeating */
-    background-position: center; /* Center the background image within the button */
-    border: none; /* Remove border */
+        padding: 12px; 
+        background-image: url('search.png');
+        background-size: contain; 
+        background-repeat: no-repeat;
+        background-position: center; 
+        border: none; 
   }
 
 
@@ -219,13 +219,13 @@ color: #990011; /* Use the same color as the buttons for text */
       }
 
       .sidebar a {
-    text-decoration: none;
-    font-size: 20px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-    margin-bottom: 10px; /* Added spacing between links */
-    padding-left: 10px; /* Added left padding */
+        text-decoration: none;
+        font-size: 20px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+        margin-bottom: 10px;
+        padding-left: 10px; 
   }
 
       .sidebar a:hover {
@@ -233,12 +233,12 @@ color: #990011; /* Use the same color as the buttons for text */
       }
 
       .sidebar .closebtn {
-    position: absolute;
-    top: 0;
-    left: 25px;
-    font-size: 36px;
-    margin-right: 50px;
-    color: white; /* Set color to white */
+        position: absolute;
+        top: 0;
+        left: 25px;
+        font-size: 36px;
+        margin-right: 50px;
+        color: white; 
   }
 
 
@@ -250,15 +250,15 @@ color: #990011; /* Use the same color as the buttons for text */
 
       .openbtn {
         float: right;
-        font-size: 30px; /* Increase the font size */
-        color: #990011; /* Set the color to #990011 */
-        background-color: transparent; /* Set background color to transparent */
-        border: none; /* Remove border */
+        font-size: 30px;
+        color: #990011; 
+        background-color: transparent; 
+        border: none; 
         cursor: pointer;
-        padding: 10px; /* Add padding for better clickability */
+        padding: 10px;
       }
 
-      /* Updated profile pic styles */
+      /* Profile pic styles */
       .profile-pic-container {
         position: relative;
         width: 100px;
@@ -267,9 +267,9 @@ color: #990011; /* Use the same color as the buttons for text */
         margin: 20px auto;
         border: 2px solid white;
         overflow: hidden;
-        display: flex; /* Use flexbox */
-        justify-content: center; /* Center horizontally */
-        align-items: center; /* Center vertically */
+        display: flex;
+        justify-content: center;
+        align-items: center; 
       }
 
       .profile-pic {
@@ -281,14 +281,14 @@ color: #990011; /* Use the same color as the buttons for text */
 
   .alt-message {
     position: absolute;
-    bottom: 0; /* Adjust as needed */
-    left: 0; /* Adjust as needed */
-    right: 0; /* Adjust as needed */
+    bottom: 0; 
+    left: 0; 
+    right: 0;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.5); 
     color: white;
-    padding: 4px 0; /* Adjust as needed */
-    font-size: 12px; /* Adjust as needed */
+    padding: 4px 0; 
+    font-size: 12px; 
   }
 
       /* File upload button styles */
