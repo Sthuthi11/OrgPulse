@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Page</title>
     <style>
-        /* Your CSS styles */
         body {
             background-color: #FCF6F5;
             display: flex;
@@ -83,10 +82,10 @@
             margin-top: 20px;
         }
         body {
-          background-image: url('bg.jpg'); /* Change the background image URL here */
-          background-size: cover; /* Cover the entire viewport */
-          background-repeat: no-repeat; /* Prevent the background image from repeating */
-          background-attachment: fixed; /* Fix the background image so it doesn't scroll with the content */
+          background-image: url('bg.jpg'); 
+          background-size: cover; 
+          background-repeat: no-repeat;
+          background-attachment: fixed; 
         }
     </style>
 </head>
