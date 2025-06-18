@@ -85,74 +85,74 @@ mysqli_close($con);
   <title>view profile</title>
   <style>
       body {
-        background-image: url('bg.jpg'); /* Set background image */
-        background-size: cover; /* Cover the entire viewport */
-        background-repeat: no-repeat; /* Prevent the background image from repeating */
-        background-attachment: fixed; /* Fix the background image so it doesn't scroll with the content */
-        font-family: Arial, sans-serif; /* Use Arial font */
-        color: #333; /* Set text color */
+        background-image: url('bg.jpg'); 
+        background-size: cover;
+        background-repeat: no-repeat; 
+        background-attachment: fixed;
+        font-family: Arial, sans-serif;
+        color: #333;
       }
 
       .container {
         max-width: 800px;
-        margin: 20px auto; /* Center the container */
-        background-color: white; /* Set background color */
+        margin: 20px auto; 
+        background-color: white;
         padding: 20px;
-        border-radius: 10px; /* Add rounded corners */
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add shadow */
+        border-radius: 10px; 
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
       }
 
       h1 {
-        color: #990011; /* Set heading color */
-        margin-bottom: 20px; /* Add spacing below heading */
+        color: #990011; 
+        margin-bottom: 20px; 
       }
 
       h2 {
-        color: #333; /* Set heading color */
-        margin-top: 20px; /* Add spacing above heading */
+        color: #333; 
+        margin-top: 20px; 
       }
 
       table {
         width: 100%;
-        border-collapse: collapse; /* Collapse table borders */
-        margin-bottom: 20px; /* Add spacing below table */
+        border-collapse: collapse;
+        margin-bottom: 20px; 
       }
 
       table, th, td {
-        border: 1px solid #ddd; /* Add border to table cells */
-        padding: 8px; /* Add padding to table cells */
-        text-align: left; /* Align text to the left */
+        border: 1px solid #ddd;
+        padding: 8px; 
+        text-align: left; 
       }
 
       th {
-        background-color: #f2f2f2; /* Set background color for table header */
-        color: #333; /* Set text color for table header */
+        background-color: #f2f2f2; 
+        color: #333; 
       }
 
       tr:nth-child(even) {
-        background-color: #f2f2f2; /* Set background color for even rows */
+        background-color: #f2f2f2; 
       }
 
       tr:hover {
-        background-color: #ddd; /* Change background color on hover */
+        background-color: #ddd; 
       }
 
       button {
-        background-color: #990011; /* Set button background color */
-        color: #fff; /* Set button text color */
-        padding: 10px 20px; /* Add padding */
-        border: none; /* Remove border */
-        border-radius: 5px; /* Add rounded corners */
-        cursor: pointer; /* Change cursor to pointer on hover */
-        transition: background-color 0.3s; /* Smooth transition */
+        background-color: #990011;
+        color: #fff; 
+        padding: 10px 20px; 
+        border: none; 
+        border-radius: 5px; 
+        cursor: pointer; 
+        transition: background-color 0.3s; 
       }
 
       button:hover {
-        background-color: #7A001D; /* Darken button color on hover */
+        background-color: #7A001D; 
       }
 
       button:focus {
-        outline: none; /* Remove focus outline */
+        outline: none;
       }
 </style></head>
 <body>
