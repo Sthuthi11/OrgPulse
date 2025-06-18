@@ -30,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
                 echo '<script>alert("Login successful! Redirecting to homepage..");</script>';
                 // Redirect to another page after a delay
                 echo '<meta http-equiv="refresh" content="2;url=logo.php">';
-                exit; // Use exit instead of die
+                exit; 
             } else {
                 // Display incorrect password message as an alert
                 echo '<script>alert("Wrong password/type!");</script>';
@@ -56,9 +56,9 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     <title>LOG IN PAGE</title>
     <style>
     body {
-      background-image: url('bg.jpg'); /* Change the background image URL here */
-      background-size: cover; /* Cover the entire viewport */
-      background-repeat: no-repeat; /* Prevent the background image from repeating */
+      background-image: url('bg.jpg'); 
+      background-size: cover;
+      background-repeat: no-repeat; 
       background-attachment: fixed;
         justify-content: center;
         align-items: center;
