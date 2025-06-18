@@ -8,12 +8,10 @@ if (!isset($_SESSION['username'])) {
     exit(); // Stop further execution
 }
 
-// Include database configuration or any required files here
-// Replace placeholders with actual database credentials
 $servername = "localhost";
 $username = "root";
 $password = "";
-$database = "organ"; // Replace 'your_database_name' with the actual name of your database
+$database = "organ";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $database);
